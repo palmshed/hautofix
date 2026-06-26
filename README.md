@@ -1,17 +1,17 @@
 # autofix
 
-**AI-powered text editor — web app + CLI.**
+**AI-powered text editor - web app + CLI.**
 
 Part of the [palmshed](https://github.com/palmshed) stack. Built on vortai + thread. Uses mlapi for execution.
 
 ## What it does
 
-Inline AI text completion as you type. Supports multiple modes (word, sentence, paragraph) and writing styles (casual, formal, creative, technical). Suggests completions via ghost text overlay — Tab to accept, Esc to dismiss.
+Inline AI text completion as you type. Supports multiple modes (word, sentence, paragraph) and writing styles (casual, formal, creative, technical). Suggests completions via ghost text overlay - Tab to accept, Esc to dismiss.
 
 ## Interfaces
 
-- **Web app** — React SPA with dark/light theme, settings panel, keyboard shortcuts. Runs on Express + Vite.
-- **CLI** — `autofix` command. Terminal-based editor for headless workflows.
+- **Web app** - React SPA with dark/light theme, settings panel, keyboard shortcuts. Runs on Express + Vite.
+- **CLI** - `autofix` command. Terminal-based editor for headless workflows.
 
 ## AI providers
 
@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`. Start typing — suggestions appear after 500ms pause.
+Open `http://localhost:3000`. Start typing - suggestions appear after 500ms pause.
 
 ## CLI
 
